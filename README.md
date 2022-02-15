@@ -17,7 +17,7 @@ This app is based on the [Sample React App fot integration with the Azure Speech
 
 ## Change recognition language
 
-To change the source recognition language, change the locale strings in `App.js` lines **32** and **66**, which sets the recognition language property on the `SpeechConfig` object.
+To change the source recognition language, change the locale strings in `App.js` 
 
 ```javascript
 speechConfig.speechRecognitionLanguage = 'en-US'
