@@ -12,6 +12,7 @@ This app is based on the [Sample React App fot integration with the Azure Speech
 1. Clone this repo, then change directory to the project root and run `npm install` to install dependencies.
 1. Run `cp .env.example .env`
 1. Add your Azure Speech key and region to the `.env` file, replacing the placeholder text.
+1. Run `npm install`
 1. To run the Express server and React app together, run `npm run dev`.
 
 ## Change recognition language
