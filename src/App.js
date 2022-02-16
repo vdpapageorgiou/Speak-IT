@@ -50,6 +50,18 @@ export default class App extends Component {
                 }else if(result.text.includes('color') || result.text.includes('Color')){
                   displayText = `Suggested app is Seeing AI by Microsoft`;
                 }
+                else if(result.text.includes('navigation') || 
+                        result.text.includes('airport') || 
+                        result.text.includes('maps') ||
+                        result.text.includes('directions') ||
+                        result.text.includes('Navigation') || 
+                        result.text.includes('Airport') || 
+                        result.text.includes('Maps') ||
+                        result.text.includes('Directions')){
+                    displayText = `Suggested app is Google Maps, a web mapping platform and consumer application offered by Google. 
+                                It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets, 
+                                real-time traffic conditions, and route planning for traveling by foot, car, bike, air and public transportation.`;
+                }
                 else{
                   displayText = `RECOGNIZED: Text=${result.text}`;
                   
